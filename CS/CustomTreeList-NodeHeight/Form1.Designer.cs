@@ -39,14 +39,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(489, 258);
+            this.ClientSize = new System.Drawing.Size(555, 258);
             this.Controls.Add(this.treeList1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "How to set individual node heights by creating a TreeList descendant";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             this.ResumeLayout(false);
-
         }
 
         #endregion
