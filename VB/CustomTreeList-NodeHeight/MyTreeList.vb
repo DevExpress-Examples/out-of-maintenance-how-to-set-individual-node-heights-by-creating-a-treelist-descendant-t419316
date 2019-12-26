@@ -15,7 +15,7 @@ Namespace CustomTreeList_NodeHeight
         End Function
 
         Protected Overrides Sub InternalNodeChanged(ByVal node As TreeListNode, ByVal nodes As TreeListNodes, ByVal changeType As NodeChangeTypeEnum)
-            If changeType Is NodeChangeTypeEnum.User1 Then
+            If changeType = NodeChangeTypeEnum.User1 Then
                 LayoutChanged()
             End If
             MyBase.InternalNodeChanged(node, nodes, changeType)
